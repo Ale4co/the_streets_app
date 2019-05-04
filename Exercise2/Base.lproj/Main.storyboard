@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Exercise2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Breakfast" translatesAutoresizingMaskIntoConstraints="NO" id="9ki-IW-GX0">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BottomGradient" translatesAutoresizingMaskIntoConstraints="NO" id="mwC-pW-bGu">
+                                <rect key="frame" x="0.0" y="438" width="414" height="298"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TopGradient" translatesAutoresizingMaskIntoConstraints="NO" id="Q51-0v-Go4">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="380"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Heart_health" translatesAutoresizingMaskIntoConstraints="NO" id="Vy8-wa-tVA">
+                                <rect key="frame" x="329" y="45" width="65" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="jT5-sl-G4W"/>
+                                    <constraint firstAttribute="height" constant="65" id="v8z-hf-MiF"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phX-Bv-Aqh">
+                                <rect key="frame" x="25" y="40" width="154" height="91"/>
+                                <string key="text">The
+Streets</string>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EGG AVO BREAD " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qzz-vC-Bh0">
+                                <rect key="frame" x="25" y="632" width="204" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Avocado, olive oil, sea salt and soft boiled egg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gti-SK-S4g">
+                                <rect key="frame" x="25" y="664" width="361" height="18"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JFZ-Fv-gL1">
+                                <rect key="frame" x="167" y="689" width="82" height="31"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="15"/>
+                                <state key="normal" title="Menu">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="Btn_URL:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IXU-2w-8ao"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gti-SK-S4g" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="25" id="141-Fy-3M3"/>
+                            <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="JFZ-Fv-gL1" secondAttribute="trailing" constant="165" id="6gt-2X-8KS"/>
+                            <constraint firstItem="Vy8-wa-tVA" firstAttribute="leading" secondItem="phX-Bv-Aqh" secondAttribute="trailing" constant="150" id="7ud-et-spo"/>
+                            <constraint firstItem="JFZ-Fv-gL1" firstAttribute="top" secondItem="gti-SK-S4g" secondAttribute="bottom" constant="7" id="99N-oJ-P7J"/>
+                            <constraint firstItem="9ki-IW-GX0" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="DKe-3X-Txv"/>
+                            <constraint firstItem="JFZ-Fv-gL1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="167" id="E00-BB-PXm"/>
+                            <constraint firstItem="phX-Bv-Aqh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="25" id="EOY-7Q-LLN"/>
+                            <constraint firstAttribute="trailing" secondItem="Vy8-wa-tVA" secondAttribute="trailing" constant="20" id="GdD-0F-Xn8"/>
+                            <constraint firstItem="Q51-0v-Go4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="HYg-8v-Tfh"/>
+                            <constraint firstItem="gti-SK-S4g" firstAttribute="top" secondItem="Qzz-vC-Bh0" secondAttribute="bottom" constant="8" id="JwU-GP-2Fd"/>
+                            <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="Qzz-vC-Bh0" secondAttribute="trailing" constant="185" id="O1w-bp-r2U"/>
+                            <constraint firstItem="Vy8-wa-tVA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="45" id="RrI-AL-dNP"/>
+                            <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="gti-SK-S4g" secondAttribute="trailing" constant="28" id="XUO-aw-GFX"/>
+                            <constraint firstAttribute="trailing" secondItem="Q51-0v-Go4" secondAttribute="trailing" id="Z2z-zQ-3jg"/>
+                            <constraint firstAttribute="bottom" secondItem="Qzz-vC-Bh0" secondAttribute="bottom" constant="80" id="ZXn-gI-GEB"/>
+                            <constraint firstAttribute="bottom" secondItem="mwC-pW-bGu" secondAttribute="bottom" id="aHM-DC-HOY"/>
+                            <constraint firstAttribute="bottom" secondItem="gti-SK-S4g" secondAttribute="bottom" constant="54" id="bc1-sQ-8rE"/>
+                            <constraint firstItem="Q51-0v-Go4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="blB-iO-rjE"/>
+                            <constraint firstAttribute="bottom" secondItem="9ki-IW-GX0" secondAttribute="bottom" id="c2i-Ln-4M1"/>
+                            <constraint firstItem="9ki-IW-GX0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="eSU-0r-3nf"/>
+                            <constraint firstItem="Qzz-vC-Bh0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="25" id="h6f-iW-7wl"/>
+                            <constraint firstItem="phX-Bv-Aqh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="40" id="n40-nd-JJW"/>
+                            <constraint firstAttribute="trailing" secondItem="mwC-pW-bGu" secondAttribute="trailing" id="ni7-yg-lRz"/>
+                            <constraint firstAttribute="trailing" secondItem="9ki-IW-GX0" secondAttribute="trailing" id="v5C-jg-TGk"/>
+                            <constraint firstItem="mwC-pW-bGu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zOA-sk-cyl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BottomGradient" width="414" height="298"/>
+        <image name="Breakfast" width="414" height="896"/>
+        <image name="Heart_health" width="47" height="41"/>
+        <image name="TopGradient" width="414" height="380"/>
+    </resources>
+</document>
