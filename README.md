@@ -1,5 +1,5 @@
 # the_streets_app
-This is a single page of a menu app for a dish I like.
+This is a single page (for a dish I like) of a restaurant menu iOS application.
 
 # What I Learned
 - Design a simple UI using image assets with UIStackView
